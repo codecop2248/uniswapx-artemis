@@ -1,0 +1,29 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "This is a sample [Artemis](https://github.com/paradigmxyz/artemis) bot that fills UniswapX orders atomically using Uniswap v2 and v3 liquidity.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codecop2248/uniswapx-artemis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/codecop2248/uniswapx-artemis/issues"
+  },
+  "homepage": "https://github.com/codecop2248/uniswapx-artemis#readme",
+  "dependencies": {
+    "@types/node": "^24.5.2",
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.2",
+    "ethers": "^6.15.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
